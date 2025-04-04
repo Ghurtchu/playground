@@ -22,7 +22,5 @@ object DebugEx extends IOApp.Simple {
    * to debug in IJ debugger, use:
    * expr.unsafeRunsync()(cats.effect.unsafe.implicits.global)
    */
-  /
-
   override def run: IO[Unit] = program
 }
