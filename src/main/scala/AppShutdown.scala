@@ -5,5 +5,6 @@ object AppShutdown extends App {
 
   sys.exit(1)
 
+  /* never printed */
   println("end")
 }
